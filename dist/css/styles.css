@@ -76,6 +76,9 @@
   }
 }
 
+#linkedin {
+  color: white;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -600,7 +603,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 15rem;
   height: auto;
 }
 
@@ -11443,6 +11446,7 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
@@ -11462,7 +11466,7 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 15rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
