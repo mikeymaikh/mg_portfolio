@@ -79,6 +79,10 @@
 #linkedin {
   color: white;
 }
+
+#github {
+  color: white;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -11470,6 +11474,12 @@ html {
   max-width: 15rem;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+.portfolio .portfolio-item img {
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
+  background-color: #f8f9fa;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
